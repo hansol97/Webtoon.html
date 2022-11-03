@@ -1,0 +1,451 @@
+div {
+    box-sizing: border-box;
+}
+
+#wrap {
+    width: 960px;
+    margin: auto;
+}
+
+
+
+
+#header_wrap {
+    width: 100%;
+    height: 150px;
+}
+
+#header_snb {
+    height: 40%;
+    width: 100%;
+}
+
+#header_snb>div {
+    height: 100%;
+    float: left;
+}
+
+/* -- 헤더 메뉴 -- */
+#header_menu {
+    height: 100%;
+    width: 30%;
+}
+
+#header_menu a {
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.naver {
+    font-size: 22px;
+    font-weight: 900;
+    color: black;
+}
+
+.comic {
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
+}
+
+.novel {
+    font-size: 17px;
+    color: #434343;
+    font-weight: bold;
+}
+
+.series {
+    font-size: 17px;
+    color: #434343;
+    font-weight: bold;
+}
+
+
+/* 검색창 */
+#search_form {
+    height: 100%;
+    width: 50%;
+}
+
+#search_form div {
+    height: 100%;
+    float: right;
+    line-height: 55px;
+}
+
+#search_text {
+    width: 60%;
+}
+
+#search_btn {
+    width: 10%;
+    height: 100%;
+}
+
+#search_form input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#search_btn button {
+    margin-top: 15px;
+    height: 30px;
+    border-top: 1px solid #acacac;
+    border-right: 1px solid #acacac;
+    border-bottom: 1px solid #acacac;
+    background-color: none;
+    border-left: 0px;
+}
+
+#search_btn img {
+    width: 100%;
+    height: 100%;
+}
+
+#search_text input {
+    height: 30px;
+    border-top: 1px solid #acacac;
+    border-right: 0px;
+    border-bottom: 1px solid #acacac;
+    border-left: 1px solid #acacac;
+}
+
+/* 내 정보 */
+#userInfo {
+    height: 100%;
+    width: 20%;
+}
+
+#user_navi {
+    list-style: none;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 80px;
+    float: right;
+}
+
+#user_navi>li {
+    float: left;
+    text-align: center;
+    height: 100%;
+    margin: 0px 5px;
+}
+
+#user_navi img {
+    height: 50%;
+    width: 80%;
+}
+
+
+
+
+#menu {
+    height: 30%;
+    width: 100%;
+}
+
+#sub_menu {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+}
+
+/* 헤더 네비 */
+#menu_navi,
+#sub_navi {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    line-height: 45px;
+}
+
+#menu_navi>li,
+#sub_navi>li {
+    float: left;
+    padding: 0px 10px;
+    text-align: center;
+    height: 100%;
+}
+
+#menu_navi a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+#sub_navi a {
+    text-decoration: none;
+    color: #505050;
+    font-weight: 800;
+}
+
+#menu_navi a:hover {
+    color: #00d564;
+}
+
+#sub_navi a:hover {
+    color: black;
+}
+
+
+
+
+#content_wrap {
+    width: 100%;
+    height: 3000px;
+}
+
+#content_wrap>div {
+    display: inline-block;
+}
+
+#webtoon {
+    width: 68%;
+    height: 100%;
+}
+
+#side {
+    width: 30%;
+    height: 50%;
+    float: right;
+}
+
+.category_tab {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.category_tab>li {
+    float: left;
+    margin-top: 10px;
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.category_tab a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #505050;
+}
+
+.category_tab a:hover {
+    color: #00d564;
+}
+
+.webtoon_spot {
+    width: 100%;
+    height: 220px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.webtoon_spot p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.webtoon_spot h3 {
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.p_title {
+    font-weight: bolder;
+}
+
+.thumb {
+    width: 90%;
+    margin-right: 3px;
+}
+
+.thumb img {
+    width: 100%;
+    height: 120px;
+}
+
+.thumb a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.main_webtoon {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_webtoon>li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ad img {
+    margin: 20px 0px;
+
+    width: 100%;
+}
+
+#upload_btn {
+    margin-top: 5%;
+    width: 100%;
+    height: 70px;
+    background-color: #00d564;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#side_ad {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+#side_ad img {
+    width: 100%;
+}
+
+#ranking h4 {
+    margin-left: 10px;
+}
+
+.rank_list a {
+    text-decoration: none;
+    color: #505050;
+}
+
+.rank_list a:hover {
+    text-decoration: underline;
+}
+
+.rank_list {
+    color: #505050;
+    font-size: 13px;
+}
+
+.rank_choice p {
+    color: #505050;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.rank_choice {
+    padding: 0px;
+}
+
+.rank_box {
+    border: 1px solid #c7c7c7;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.rank_box hr {
+    color: #c7c7c7;
+}
+
+.rank_box>li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#notice {
+    border: 1px solid #c7c7c7;
+}
+
+#notice p {
+    color: #505050;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+#notice a {
+    text-decoration: none;
+    color: #505050;
+    font-size: 13px;
+}
+
+#notice a:hover {
+    text-decoration: underline;
+}
+
+#service_btn {
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    border: 1px solid #c7c7c7;
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+
+
+
+
+#footer_wrap {
+    width: 100%;
+    height: 300px;
+}
+
+#footer_1 {
+    width: 100%;
+    height: 20%;
+}
+
+#footer_2 {
+    width: 100%;
+    height: 80%;
+}
+
+#footer_1>a {
+    text-decoration: none;
+    color: #555c64;
+    font-weight: 550;
+    font-size: 10px;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+#footer_1>a:hover {
+    text-decoration: underline;
+}
+
+#footer_2>p {
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #656565;
+}
+
+#p1 {
+    height: 80%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#p2 {
+    height: 20%;
+    font-weight: 300;
+    text-align: center;
+}
+
+#top_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    background-color: #00d564;
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;;
+    border: 0px;
+    color: white
+}
